@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.registration-form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: stretch;
+    border-right: solid 1px var(--black);
+    height: 100vh;
+    width: 20%;
+    padding: 2rem 1rem;
+}
+
+.registration-form_label {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--orange-dark);
+    margin: 1rem 0 .25rem;
+}
+
+.registration-form_input, .registration-form_textarea {
+    width: 200px;
+    border: solid 3px var(--black);
+    border-radius: 10px;
+    resize: none;
+    padding: 1rem 2rem;
+    margin: 1rem auto;
+}
+
+.registration-form_submit {
+    border: solid 3px var(--gray-dark);
+    border-radius: 10px;
+    padding: .75rem 3rem;
+    margin: 1rem auto;
+}
+
+.registration-form_submit:hover {
+    border-color: var(--orange-dark);
+    color: var(--orange-dark);
+}
+
+.registration-form_submit:active {
+    border-color: var(--orange-light);
+    color: var(--orange-light);
+    background: var(--orange-extreme-light);
+}
+
+.registration-form_input::placeholder, 
+.registration-form_textarea::placeholder,
+.registration-form_submit {
+    font-family: 'Inter', sans-serif;
+    font-size: .75rem;
+    font-weight: 600;
+    text-align: start;
+    color: var(--gray-dark);
+}
