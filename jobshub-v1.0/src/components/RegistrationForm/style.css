@@ -52,7 +52,7 @@
 .registration-form_textarea::placeholder,
 .registration-form_submit {
     font-family: 'Inter', sans-serif;
-    font-size: .75rem;
+    font-size: 1rem;
     font-weight: 600;
     text-align: start;
     color: var(--gray-dark);
