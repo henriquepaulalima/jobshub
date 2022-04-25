@@ -3,7 +3,7 @@ import JobCard from "../JobCard/JobCard";
 import './style.css';
 
 class JobsList extends Component {
-	constructor(props) {
+	constructor() {
 		super();
 		this.state = {jobs:[]};
 		this._newJobs = this._newJobs.bind(this);
