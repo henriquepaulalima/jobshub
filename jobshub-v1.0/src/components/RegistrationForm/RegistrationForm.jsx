@@ -6,7 +6,7 @@ class RegistrationForm extends Component {
 		super(props);
 		this.title = "";
 		this.text = "";
-	}
+	}	
 	
 	_handleTitleChange(event) {
 		event.stopPropagation();
@@ -15,7 +15,7 @@ class RegistrationForm extends Component {
 	
 	_handleTextChange(event) {
 		event.stopPropagation();
-		this.event = event.target.value;
+		this.text = event.target.value;
 	}
 	
 	_createJob(event) {

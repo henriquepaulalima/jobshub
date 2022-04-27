@@ -5,7 +5,6 @@ import JobsArray from './data/Jobs';
 import './assets/App.css';
 import './assets/reset.css';
 import './assets/normalize.css';
-import './assets/base.css';
 
 class App extends Component {
   constructor() {
@@ -21,7 +20,7 @@ class App extends Component {
         />
         <main className="main-content">
           <JobsList
-            deleteJob={this.jobs.deleteJob.bind(this)}
+            deleteJob={this.jobs.deleteJob.bind(this.jobs)}
             jobs={this.jobs}
           />
         </main>

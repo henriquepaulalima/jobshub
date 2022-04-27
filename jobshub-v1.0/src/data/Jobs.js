@@ -1,6 +1,6 @@
 export default class JobsArray {
   constructor() {
-    this.notas = [];
+    this.jobs = [];
     this._subscribes = [];
   }
 
@@ -25,7 +25,7 @@ export default class JobsArray {
 
   notify() {
     this._subscribes.forEach(func => {
-      func(this.notes);
+      func(this.jobs);
     });
   }
 }
