@@ -1,16 +1,12 @@
 .jobs-list {
-  background-color: var(--fundo);
-  flex-grow: 3;
-  display: grid;
-  grid-template-columns: auto auto auto auto auto;
-  list-style-type: none;
-  padding-left: 24px;
-  padding-top: 24px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  background-color: var(--fundo); 
+  padding: 1rem 2rem;
 }
 
 .jobs-list_item {
   margin: 12px;
-  max-width: 240px;
-  max-height: 400px;
   display: inline;
 }

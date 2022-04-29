@@ -12,6 +12,7 @@ class JobCard extends Component {
     return (
       <section className="job-card">
         <header className="job-card_header">
+          <div></div>
           <h3 className="job-card_title">{this.props.title}</h3>
           <img src={deleteSVG} alt="Delete button" className="job-card_img" onClick={this.delete.bind(this)}/>
         </header>
