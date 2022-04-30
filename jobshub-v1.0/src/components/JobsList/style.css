@@ -3,7 +3,10 @@
   flex-wrap: wrap;
   flex-direction: row;
   background-color: var(--fundo); 
+  width: 80%;
   padding: 1rem 2rem;
+  margin: 0;
+  transition: ease 2s;
 }
 
 .jobs-list_item {

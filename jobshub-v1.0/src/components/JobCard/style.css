@@ -5,6 +5,8 @@
   align-content: stretch;
   border: solid 3px var(--orange-dark);
   border-radius: 10px;
+  height: auto;
+  width: 10rem;
   padding: 1rem;
 }
 
@@ -33,10 +35,8 @@
   font-family: 'Inter', sans-serif;
   font-weight: 400;
   font-size: .75em;
-  padding: 2rem 1rem;
   line-height: 1.5rem;
 }
-
 
 .job-card_img {
   height: 20px;
